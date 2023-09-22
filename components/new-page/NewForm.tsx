@@ -33,7 +33,7 @@ const NewForm = () => {
     priority: string
   ) => {
     try {
-      const res = await fetch(`http://localhost:3000/api/tasks`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/tasks`, {
         method: 'POST',
         headers: {
           'Content-type': 'application-json',

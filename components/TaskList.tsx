@@ -3,7 +3,7 @@ import TaskItem from './TaskItem'
 
 const getTasks = async () => {
   try {
-    const res = await fetch(`http://localhost:3000/api/tasks`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/tasks`, {
       cache: 'no-store',
     })
 
