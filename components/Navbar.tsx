@@ -11,8 +11,8 @@ const Navbar = () => {
           <Image className='w-28' src={logo} alt='' width={400} height={400} />
         </Link>
         <div className='text-white flex gap-5'>
-          <Link href='/dashboard'>Dashboard</Link>
-          <Link href='/tasks'>Tasks</Link>
+          <Link href='#'>Dashboard</Link>
+          <Link href='#'>Tasks</Link>
         </div>
       </div>
     </nav>
